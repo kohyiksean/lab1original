@@ -11,14 +11,11 @@ class Block extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: colour,
-  
-      ),
+      decoration: BoxDecoration(color: colour),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset(image,width:30),
+          Image.asset(image, width: 30),
           const SizedBox(height: 10),
           Text(title),
           const SizedBox(height: 10),
